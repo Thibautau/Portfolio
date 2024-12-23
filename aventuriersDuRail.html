@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Portfolio Audouy Thibaut</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+
+<body class="bg-light">
+<nav class="navbar navbar-expand-lg bg-primary-subtle p-4 py-3">
+    <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-auto">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Présentation</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="projetProfessionnel.html">Projet professionnel</a>
+                </li>
+                <!-- Dropdown for Projets Réalisés -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Projets réalisés
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="stageC4W.html">Stage</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="echec.html"> Moteur d'échec</a></li>
+                        <li><a class="dropdown-item" href="aventuriersDuRail.html">Aventuriers du rail</a></li>
+                        <li><a class="dropdown-item" href="praktiki.html">Praktiki</a></li>
+                        <li><a class="dropdown-item" href="nuitDeLInfo.html">Nuit de l'info</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="contact.html">Contacts</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-md-8 mx-auto">
+            <h1 class="text-center mb-4">Jeu des Aventuriers du rails</h1>
+
+            <p class="ms-5"> Ce jeu a été réalisé en <strong>Java</strong> à l'aide de <strong>JavaFX</strong> lors de ma première année de BUT.</p>
+            <p class="ms-5"> C'est un jeu de plateau à 4 joueurs minimum où les joueurs peuvent piocher des cartes, échanger des pions, capturer des routes,... </p>
+            <p class="ms-5"> J'ai pu développer toutes ces mécaniques nécessaires au bon fonctionnement du jeu ainsi qu'une interface utilisateur dont voici quelques images ci dessous</p>
+
+            <p class="ms-5"> J'ai pu acquérir et consolider ces compétences lors de ce projet :</p>
+
+            <ul class="ms-5">
+                <li><strong>Développer des applications</strong> informatiques simples</li>
+                <li>Partir des exigences et aller jusqu'à une application complète</li>
+                <li>Appréhender et construire des <strong>algorithmes</strong></li>
+                <li>Situer son rôle et ses missions au sein d'une équipe informatique</li>
+                <li>Identifier ses aptitudes pour <strong>travailler dans une équipe</strong></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-md-8 mx-auto">
+            <div id="monCarrousel" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <a href="#" data-bs-toggle="modal" data-bs-target="#myModal" onclick="showImage('rail1.png', 'Image 1');">
+                            <img src="rail1.png" class="d-block w-100" alt="Image 1">
+                        </a>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="#" data-bs-toggle="modal" data-bs-target="#myModal" onclick="showImage('rail2.png', 'Image 2');">
+                            <img src="rail2.png" class="d-block w-100" alt="Image 2">
+                        </a>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="#" data-bs-toggle="modal" data-bs-target="#myModal" onclick="showImage('rail3.png', 'Image 3');">
+                            <img src="rail3.png" class="d-block w-100" alt="Image 3">
+                        </a>
+                    </div>
+                    <!-- Ajoutez autant d'éléments carousel-item que nécessaire -->
+                </div>
+                <a class="carousel-control-prev" href="#monCarrousel" role="button" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Précédent</span>
+                </a>
+                <a class="carousel-control-next" href="#monCarrousel" role="button" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Suivant</span>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="myModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog custom-modal-size">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Image du jeu les Aventuriers du rails</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <img id="modalImage" class="d-block w-100" alt="Image en grand">
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">
+    function showImage(imageSrc, imageAlt) {
+        var modalImage = document.getElementById('modalImage');
+        modalImage.src = imageSrc;
+        modalImage.alt = imageAlt;
+    }
+</script>
+</body>
+</html>

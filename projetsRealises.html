@@ -25,182 +25,38 @@
                     <a class="nav-link active" aria-current="page" href="index.html">Présentation</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="projetProfessionnel.html">Projet professionnel</a>
+                    <a class="nav-link" aria-current="page" href="projetProfessionnel.html">Projet professionnel</a>
+                </li>
+                <!-- Dropdown for Projets Réalisés -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Projets réalisés
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="stageC4W.html">Stage</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="echec.html"> Moteur d'échec</a></li>
+                        <li><a class="dropdown-item" href="aventuriersDuRail.html">Aventuriers du rail</a></li>
+                        <li><a class="dropdown-item" href="praktiki.html">Praktiki</a></li>
+                        <li><a class="dropdown-item" href="nuitDeLInfo.html">Nuit de l'info</a></li>
+                    </ul>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="projetsRealises.html">Projet réalisé</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="contact.html">Contacts</a>
+                    <a class="nav-link" aria-current="page" href="contact.html">Contacts</a>
                 </li>
             </ul>
         </div>
     </div>
 </nav>
 
-<div class="container mt-5">
-    <div class="row">
-        <div class="col-md-8 mx-auto">
-            <h1 class="text-center mb-4">Jeu des Aventuriers du rails</h1>
-
-            <p class="ms-5"> Ce jeu a été réalisé en <strong>Java</strong> à l'aide de <strong>JavaFX</strong> lors de ma première année de BUT.</p>
-            <p class="ms-5"> C'est un jeu de plateau à 4 joueurs minimum où les joueurs peuvent piocher des cartes, échanger des pions, capturer des routes,... </p>
-            <p class="ms-5"> j'ai pu développer toutes ces mécaniques nécessaires au bon fonctionnement du jeu ainsi qu'une interface utilisateur dont voici quelques images ci dessous</p>
-
-            <p class="ms-5"> J'ai pu acquérir et consolider ces compétences lors de ce projet :</p>
-
-            <ul class="ms-5">
-                <li><strong>Développer des applications</strong> informatiques simples</li>
-                <li>Partir des exigences et aller jusqu'à une application complète</li>
-                <li>Appréhender et construire des <strong>algorithmes</strong></li>
-                <li>Situer son rôle et ses missions au sein d'une équipe informatique</li>
-                <li>Identifier ses aptitudes pour <strong>travailler dans une équipe</strong></li>
-            </ul>
-        </div>
-    </div>
-</div>
-
-
-<div class="container mt-5">
-    <div class="row">
-        <div class="col-md-8 mx-auto">
-            <div id="monCarrousel" class="carousel slide" data-ride="carousel">
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <a href="#" data-bs-toggle="modal" data-bs-target="#myModal" onclick="showImage('rail1.png', 'Image 1');">
-                            <img src="rail1.png" class="d-block w-100" alt="Image 1">
-                        </a>
-                    </div>
-                    <div class="carousel-item">
-                        <a href="#" data-bs-toggle="modal" data-bs-target="#myModal" onclick="showImage('rail2.png', 'Image 2');">
-                            <img src="rail2.png" class="d-block w-100" alt="Image 2">
-                        </a>
-                    </div>
-                    <div class="carousel-item">
-                        <a href="#" data-bs-toggle="modal" data-bs-target="#myModal" onclick="showImage('rail3.png', 'Image 3');">
-                            <img src="rail3.png" class="d-block w-100" alt="Image 3">
-                        </a>
-                    </div>
-                    <!-- Ajoutez autant d'éléments carousel-item que nécessaire -->
-                </div>
-                <a class="carousel-control-prev" href="#monCarrousel" role="button" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Précédent</span>
-                </a>
-                <a class="carousel-control-next" href="#monCarrousel" role="button" data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Suivant</span>
-                </a>
-            </div>
-        </div>
-    </div>
-</div>
-
-
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 
-<div class="modal fade" id="myModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog custom-modal-size">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLabel">Image du jeu les Aventuriers du rails</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-                <img id="modalImage" class="d-block w-100" alt="Image en grand">
-            </div>
-        </div>
-    </div>
-</div>
 
-<div class="container mt-5">
-    <div class="row">
-        <div class="col-md-8 mx-auto">
-            <h1 class="text-center mb-4">Praktiki</h1>
-            <p class="ms-5">Cet <strong>application WEB</strong> a été réalisé en HTML/CSS/PHP/JS/SQL lors de ma 2ème année dans un groupe de <strong>6</strong> en utilisant les méthodes agiles.</p>
 
-            <p class="ms-5">Il s'agit d'une application web permettant de gérer les <strong>stages</strong> et <strong>alternances</strong> de l'IUT.</p>
 
-            <p class="ms-5">J'ai pu développer des fonctionnalités comme la possibilité de créer des offres de stage et d'alternance pour les entreprises mais aussi la possibilité que les étudiants puissent les visualiser en les triant. J'ai notamment pu faire des statistiques qui montrent l'avancé des étudiants dans la création de leurs conventions.</p>
 
-            <p class="ms-5">Ce projet m'a permis d'acquérir les compétences suivantes requises pour mon BUT :</p>
-            <ul class="ms-5">
-            <li>Partir des exigences et aller jusqu'à
-            une <strong>application</strong> complète</li>
-                <li><strong>Concevoir</strong> et mettre en place une base
-            de données à partir d'un cahier des
-            charges client</li>
-                <li><strong>Optimiser</strong> une base de données,
-            interagir avec une application et mettre
-            en œuvre la sécurité</li>
-                <li><strong>Identifier les besoins métiers</strong> des
-            clients et des utilisateurs</li>
-                <li>Appliquer une démarche de suivi de
-            projet en fonction des besoins métiers
-            des clients et des utilisateurs</li>
-                    <li>Identifier ses aptitudes pour travailler
-            dans une équipe</li>
-                        <li>Situer son rôle et ses missions au sein
-            d'une <strong>équipe</strong> informatique</li>
-            </ul>
 
-        </div>
-    </div>
-</div>
-
-<div class="container mt-5">
-    <div class="row">
-        <div class="col-md-8 mx-auto">
-            <h1 class="text-center mb-4">Aventuriers du graphe</h1>
-            <p class="ms-5">Les aventuriers du graphes est une partie des aventuriers du rail où l'on met en pratique les <strong>algorithmes</strong> acquis pendant les cours concernant la <strong>théorie des graphes</strong>.</p>
-
-            <p class="ms-5">Cela m'a permis de consolider mes connaissances en <strong>développement</strong> et de mettre en pratique la théorie des graphes. Ce projet de 1ère année a été réalisé en binôme.</p>
-
-            <p class="ms-5">J'ai notamment pu acquérir ces compétences au cours de ce projet :</p>
-
-            <ul class="ms-5">
-                <li><strong>Développer</strong> des applications
-            informatiques simples</li>
-                <li>Appréhender et construire des
-                    <strong>algorithmes</strong></li>
-                <li>Sélectionner les algorithmes adéquats
-            pour répondre à un problème donné</li>
-                <li>Identifier les besoins métiers des
-            clients et des utilisateurs</li>
-                <li>Identifier ses aptitudes pour travailler
-            dans une <strong>équipe</strong></li>
-            </ul>
-        </div>
-    </div>
-</div>
-
-<div class="container mt-5">
-    <div class="row">
-        <div class="col-md-8 mx-auto">
-            <h1 class="text-center mb-4">Nuit de l'info</h1>
-
-            <p class="ms-5">La Nuit de l'info est un évènement organisé par l'IUT pendant lequel on doit relever des défis informatiques en UNE NUIT !</p>
-            <p class="ms-5">J'ai pu réaliser cette évènement dans une équipe 7 personnes.</p>
-            <p class="ms-5">J'ai notamment pu réaliser un site web dans lequel était compris un Tetris ainsi que des énigmes en tout genre.</p>
-            <p class="ms-5">Ce fût un défi technique car on a utilisé VueJS qui est un language avec framwork que l'on ne connaissait pas. Grâce à cet évènement, j'ai pu découvrir ce language et relever des défis en équipe !</p>
-
-            <p class="ms-5">Cela m'a permis de consolider  les compétences suivantes acquises à l'IUT :</p>
-            <ul class="ms-5">
-                <li><strong>Développer</strong> des applications
-                    informatiques simples</li>
-                <li>Partir des exigences et aller jusqu'à
-            une <strong>application complète</strong></li>
-                <li>Appréhender et construire des
-                    <strong>algorithmes</strong></li>
-                <li>Sélectionner les algorithmes adéquats
-            pour répondre à un problème donné</li>
-                <li>Identifier ses aptitudes pour travailler
-            dans une <strong>équipe</strong></li>
-            </ul>
-        </div>
-    </div>
-</div>
 
 <script>
     function showImage(imageSrc, imageAlt) {
