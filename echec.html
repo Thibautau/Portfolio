@@ -48,28 +48,41 @@
 <div class="container mt-5">
     <div class="row">
         <div class="col-md-8 mx-auto">
-            <h1 class="text-center mb-4">Aventuriers du graphe</h1>
-            <p class="ms-5">Les aventuriers du graphes est une partie des aventuriers du rail où l'on met en pratique les <strong>algorithmes</strong> acquis pendant les cours concernant la <strong>théorie des graphes</strong>.</p>
+            <h1 class="text-center mb-4">Développement d'un moteur d'échecs en C++</h1>
+            <p class="mb-4 mt-5 me-3 fs-4">Dans le cadre de ma <strong>3ème année de BUT</strong>, j'ai entrepris le développement d'un moteur d'échecs en <strong>C++</strong> dans un groupe de 5 personnes.</p>
+            <p class="mb-4 mt-5 me-3 fs-4">Les échecs sont un jeu stratégique et algorithmique par excellence, offrant une multitude de défis en termes d'implémentation et d'optimisation logicielle.</p>
+            <br>
+            <p class="mb-4 mt-5 me-3 fs-4">Ce projet m'a permis d'explorer et d'implémenter de nombreuses techniques avancées utilisées dans les moteurs d'échecs modernes.</p>
 
-            <p class="ms-5">Cela m'a permis de consolider mes connaissances en <strong>développement</strong> et de mettre en pratique la théorie des graphes. Ce projet de 1ère année a été réalisé en binôme.</p>
-
-            <p class="ms-5">J'ai notamment pu acquérir ces compétences au cours de ce projet :</p>
-
-            <ul class="ms-5">
-                <li><strong>Développer</strong> des applications
-                    informatiques simples</li>
-                <li>Appréhender et construire des
-                    <strong>algorithmes</strong></li>
-                <li>Sélectionner les algorithmes adéquats
-                    pour répondre à un problème donné</li>
-                <li>Identifier les besoins métiers des
-                    clients et des utilisateurs</li>
-                <li>Identifier ses aptitudes pour travailler
-                    dans une <strong>équipe</strong></li>
+            <h3 class="mt-5 mb-3">Algorithmes implémentés le bot</h3>
+            <p class="mb-4 mt-5 me-3 fs-4">Voici un aperçu des principales fonctionnalités de mon moteur d'échecs :</p>
+            <ul class="fs-4 mb-4 mt-3">
+                <li><strong><a href="https://www.chessprogramming.org/Minimax">Minimax</a></strong> : Algorithme qui choisi le meilleur coup quand notre adversaire fait aussi le meilleur</li>
+                <li><strong><a href="https://www.chessprogramming.org/Alpha-Beta">Élagage Alpha-Bêta</a></strong> : Optimisation pour réduire le nombre de nœuds explorés</li>
+                <li><strong><a href="https://www.chessprogramming.org/Quiescence_Search">Quiescence</a></strong> : Gestion des positions instables pour éviter des évaluations incorrectes</li>
+                <li><strong><a href="https://www.chessprogramming.org/Opening_Book">Livre d'ouverture</a></strong> : Intégration de mouvements pré-calculés pour les premièrs coup d'une partie</li>
+                <li><strong><a href="https://www.chessprogramming.org/index.php?title=Transposition_Table">Table de transposition</a></strong> : Utilisation du <a href="https://www.chessprogramming.org/Zobrist_Hashing">Zobrist Hashing</a> pour éviter de recalculer des positions déjà explorées</li>
+                <li><strong><a href="https://www.chessprogramming.org/Move_Ordering">Ordering des coups</a></strong> : Priorisation des mouvements pour optimiser la recherche</li>
+                <li><strong><a href="https://www.chessprogramming.org/Evaluation">Evaluation</a></strong> : Analyse des positions basées sur le matériel, la structure des pions, et l'activité des pièces</li>
+                <li><strong><a href="https://www.chessprogramming.org/UCI">Protocole UCI</a></strong> : Communication avec les interfaces utilisateur d'échecs comme <a href="https://lucaschess.pythonanywhere.com/">LucasChess</a> ou
+                    <a href="http://www.playwitharena.de/">Arena</a> ou bien n'importe quel application qui implémente ce protocole!</li>
             </ul>
+
+            <div class="text-center mt-5">
+                <img src="img/Chess/ChessBoard.png" alt="Échiquier" class="img-fluid rounded shadow">
+            </div>
+
+            <h3 class="text-center mt-5">Les défis rencontrés</h3>
+            <p class="mb-4 mt-5 me-3 fs-4">L'un des plus grands défis de ce projet a été l'optimisation des performances, car les moteurs d'échecs nécessitent une exploration approfondie de l'arbre de jeu tout en jouant rapidement.</p>
+
+            <h3 class="text-center mt-5">Ce que j'ai appris</h3>
+            <p class="mb-4 mt-5 me-3 fs-4">Ce projet m'a permis d'approfondir mes compétences en <strong>C++</strong>.</p>
+            <p class="mb-4 mt-5 me-3 fs-4">J'ai appris à concevoir des algorithmes performants, à gérer des structures de données complexes et à développer un logiciel conforme à des protocoles standards comme <strong>UCI</strong>.</p>
+            <p class="mb-4 mt-5 me-3 fs-4">Ce projet m'a également permis de mieux comprendre l'importance de l'optimisation et de l'organisation dans des projets.</p>
         </div>
     </div>
 </div>
+
 
 
 
