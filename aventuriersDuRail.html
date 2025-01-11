@@ -47,74 +47,115 @@
 <div class="container mt-5">
     <div class="row">
         <div class="col-md-8 mx-auto">
-            <h1 class="text-center mb-4">Jeu des Aventuriers du rails</h1>
+            <h1 class="text-center mb-4">Développement du jeu "Les Aventuriers du Rail"</h1>
 
-            <p class="ms-5"> Ce jeu a été réalisé en <strong>Java</strong> à l'aide de <strong>JavaFX</strong> lors de ma première année de BUT.</p>
-            <p class="ms-5"> C'est un jeu de plateau à 4 joueurs minimum où les joueurs peuvent piocher des cartes, échanger des pions, capturer des routes,... </p>
-            <p class="ms-5"> J'ai pu développer toutes ces mécaniques nécessaires au bon fonctionnement du jeu ainsi qu'une interface utilisateur dont voici quelques images ci dessous</p>
-
-            <p class="ms-5"> J'ai pu acquérir et consolider ces compétences lors de ce projet :</p>
-
-            <ul class="ms-5">
-                <li><strong>Développer des applications</strong> informatiques simples</li>
-                <li>Partir des exigences et aller jusqu'à une application complète</li>
-                <li>Appréhender et construire des <strong>algorithmes</strong></li>
-                <li>Situer son rôle et ses missions au sein d'une équipe informatique</li>
-                <li>Identifier ses aptitudes pour <strong>travailler dans une équipe</strong></li>
+            <p class="mb-4 mt-5 me-3 fs-4">
+                Dans le cadre de ma <strong>1ère année de BUT</strong>, j'ai développé en binôme le célèbre jeu de plateau <strong>Les Aventuriers du Rail</strong>, en utilisant le langage <strong>Java</strong> et le framework <strong>JavaFX</strong>.
+            </p>
+            <p class="mb-4 mt-5 me-3 fs-4">
+                Ce projet consistait à reproduire l'ensemble des mécaniques du jeu pour permettre à 4 joueurs ou plus de participer à des parties interactives. Les joueurs peuvent :
+            </p>
+            <ul class="fs-4 mb-4 mt-3">
+                <li>Piocher des cartes pour constituer leur main et atteindre leurs objectifs.</li>
+                <li>Échanger des pions pour capturer des routes stratégiques.</li>
+                <li>Construire des lignes de chemin de fer entre les villes pour compléter leurs missions.</li>
+                <li>Optimiser leurs ressources tout en bloquant les stratégies des adversaires.</li>
             </ul>
-        </div>
-    </div>
-</div>
+
+            <h3 class="mt-5 mb-4">Interface utilisateur</h3>
+            <p class="mb-4 mt-5 me-3 fs-4">
+                Une attention particulière a été portée à la création d'une interface utilisateur intuitive et visuellement attrayante. Grâce à JavaFX, j'ai conçu une interface qui inclut :
+            </p>
+            <ul class="fs-4 mb-4 mt-3">
+                <li>Un plateau interactif affichant les routes, les villes et les chemins possibles.</li>
+                <li>Des menus pour gérer les cartes, les pions, et les objectifs des joueurs.</li>
+                <li>Un système de notifications pour guider les joueurs et afficher l'évolution de la partie.</li>
+            </ul>
 
 
-<div class="container mt-5">
-    <div class="row">
-        <div class="col-md-8 mx-auto">
-            <div id="monCarrousel" class="carousel slide" data-ride="carousel">
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <a href="#" data-bs-toggle="modal" data-bs-target="#myModal" onclick="showImage('rail1.png', 'Image 1');">
-                            <img src="img/AventurierDuRail/rail1.png" class="d-block w-100" alt="Image 1">
-                        </a>
+
+<!-- START CAROUSSEL  -->
+
+            <div class="container mt-5">
+                <div class="row">
+                    <div class="col-md-8 mx-auto">
+                        <div id="monCarrousel" class="carousel slide" data-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <a href="#" data-bs-toggle="modal" data-bs-target="#myModal" onclick="showImage('rail1.png', 'Image 1');">
+                                        <img src="img/AventurierDuRail/rail1.png" class="d-block w-100" alt="Image 1">
+                                    </a>
+                                </div>
+                                <div class="carousel-item">
+                                    <a href="#" data-bs-toggle="modal" data-bs-target="#myModal" onclick="showImage('rail2.png', 'Image 2');">
+                                        <img src="img/AventurierDuRail/rail2.png" class="d-block w-100" alt="Image 2">
+                                    </a>
+                                </div>
+                                <div class="carousel-item">
+                                    <a href="#" data-bs-toggle="modal" data-bs-target="#myModal" onclick="showImage('rail3.png', 'Image 3');">
+                                        <img src="img/AventurierDuRail/rail3.png" class="d-block w-100" alt="Image 3">
+                                    </a>
+                                </div>
+                                <!-- Ajoutez autant d'éléments carousel-item que nécessaire -->
+                            </div>
+                            <a class="carousel-control-prev" href="#monCarrousel" role="button" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Précédent</span>
+                            </a>
+                            <a class="carousel-control-next" href="#monCarrousel" role="button" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Suivant</span>
+                            </a>
+                        </div>
                     </div>
-                    <div class="carousel-item">
-                        <a href="#" data-bs-toggle="modal" data-bs-target="#myModal" onclick="showImage('rail2.png', 'Image 2');">
-                            <img src="img/AventurierDuRail/rail2.png" class="d-block w-100" alt="Image 2">
-                        </a>
-                    </div>
-                    <div class="carousel-item">
-                        <a href="#" data-bs-toggle="modal" data-bs-target="#myModal" onclick="showImage('rail3.png', 'Image 3');">
-                            <img src="img/AventurierDuRail/rail3.png" class="d-block w-100" alt="Image 3">
-                        </a>
-                    </div>
-                    <!-- Ajoutez autant d'éléments carousel-item que nécessaire -->
                 </div>
-                <a class="carousel-control-prev" href="#monCarrousel" role="button" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Précédent</span>
-                </a>
-                <a class="carousel-control-next" href="#monCarrousel" role="button" data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Suivant</span>
-                </a>
             </div>
+
+            <div class="modal fade" id="myModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog custom-modal-size">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Image du jeu les Aventuriers du rails</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <img id="modalImage" class="d-block w-100" alt="Image en grand">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+<!-- END CAROUSSEL -->
+
+            <h3 class="mt-5 mb-4 text-center">Défis techniques rencontrés</h3>
+            <p class="mb-4 mt-5 me-3 fs-4">
+                La complexité de ce projet résidait dans la gestion des nombreuses interactions entre les joueurs et le plateau de jeu. Parmi les principaux défis :
+            </p>
+            <ul class="fs-4 mb-4 mt-3">
+                <li><strong>Gestion des règles</strong> : Implémentation des règles, comme la validation des objectifs ou la capture des routes.</li>
+                <li><strong>Interface graphique</strong> : Conception d'un plateau ergonomique, dynamique et responsive.</li>
+            </ul>
+
+            <h3 class="mt-5 mb-4 text-center">Ce que j'ai appris</h3>
+            <p class="mb-4 mt-5 me-3 fs-4">
+                Ce projet a été une expérience enrichissante qui m'a permis d'acquérir et de renforcer plusieurs compétences clés :
+            </p>
+            <ul class="fs-4 mb-4 mt-3">
+                <li><strong>Programmation orientée objet (POO)</strong> : Structurer le code en classes et objets pour modéliser les joueurs, les cartes, et le plateau.</li>
+                <li><strong>Développement d'interfaces graphiques</strong> : Utilisation avancée de JavaFX pour créer une application intuitive et esthétique.</li>
+                <li><strong>Gestion de projet</strong> : Planification et organisation des tâches pour finir dans les délais impartis.</li>
+                <li><strong>Collaboration</strong> : Travail en équipe pour résoudre les problèmes et coordonner les tâches.</li>
+            </ul>
+            <p class="mb-4 mt-5 me-3 fs-4">
+                Enfin, ce projet m'a donné un premier aperçu des défis de la conception et du développement d'une application, tout en consolidant mes bases en <strong>Java</strong>.
+            </p>
         </div>
     </div>
 </div>
 
-<div class="modal fade" id="myModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog custom-modal-size">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLabel">Image du jeu les Aventuriers du rails</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-                <img id="modalImage" class="d-block w-100" alt="Image en grand">
-            </div>
-        </div>
-    </div>
-</div>
+
+
+
 
 
 
