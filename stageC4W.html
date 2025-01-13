@@ -14,7 +14,7 @@
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-auto">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-auto fs-4 mb-4 mt-3">
                 <li class="nav-item">
                     <a class="nav-link active" aria-current="page" href="index.html">Présentation</a>
                 </li>
@@ -47,33 +47,89 @@
 <div class="container mt-5">
     <div class="row">
         <div class="col-md-8 mx-auto">
-            <h1 class="text-center mb-4">Stage de 3 mois chez C4W </h1>
-            <p class="mb-4 mt-5 me-3 fs-4">Dans le cadre de ma <strong>2ème année de BUT</strong>, j'ai pu effectuer un stage chez <a href="https://c4w.com/">C4W.</a></p>
-            <p class="mb-4 mt-5 me-3 fs-4">C4W est une entreprise spécialisé dans l'édition de logiciel  <strong>3D </strong> dit de  <strong>CAO </strong>.</p>
-            <br>
+            <h1 class="text-center mb-4">Stage de 3 mois chez C4W</h1>
+
+            <p class="mb-4 mt-5 me-3 fs-4">
+                Dans le cadre de ma <strong>2ème année de BUT</strong>, j'ai eu l'opportunité de réaliser un stage de trois mois au sein de l'entreprise
+                <a href="https://c4w.com/">C4W</a>, une société spécialisée dans le développement de logiciels <strong>3D</strong> pour la
+                <strong>CAO (Conception Assistée par Ordinateur)</strong>.
+            </p>
             <p class="mb-4 mt-5 me-3 fs-4"> Au cours de mon stage, j'ai pu travailler sur le logiciel <a href="https://orthup.fr/"><strong>ORTH'UP</strong></a> dont ils sont les propriétaires.</p>
             <p class="mb-4 mt-5 me-3 fs-4"> Ce logiciel est destiné à des <strong>orthodontistes</strong> et des <strong>laboratoires</strong> de recherches.</p>
-            <img src="img/C4W/machoireC4W.png" alt="Modèle de mâchoire" class="img-fluid rounded shadow">
-            <br>
-            <br>
-            <p class="mb-4 mt-5 me-3 fs-4"> Ma mission a été d'intervenir pour modéliser avec plus de précisions des dents attypiques comme les <a href="https://fr.wikipedia.org/wiki/Tubercule_de_Carabelli">cuspides de carabellis </a>.</p>
-            <p class="mb-4 mt-5 me-3 fs-4"> J'ai du faire tout cela en apprenant de nouveaux algorithmes (découpe, lissage, ...) et en les utilisant sur des objets 3D (<a href="https://fr.wikipedia.org/wiki/Maillage">maillages</a>).</p>
-            <div class="text-center">
-                <img src="img/C4W/Carabelli.jpg" alt="Cuspide de carabellis" class="img-fluid rounded shadow">
+
+            <div class="text-center mt-5">
+                <img src="img/C4W/machoireC4W.png" alt="Modèle de mâchoire" class="img-fluid rounded shadow">
             </div>
-            <p class="mb-4 mt-5 me-3 fs-4">On peut remarquer qu'il y a une bosse sur la dent! C'est un cas très rare mais qu'il faut prendre en compte sur le logiciel afin d'offrir le meilleur traitement possible pour les patients.</p>
 
-            <br>
-            <br>
-            <br>
+            <p class="mb-4 mt-5 me-3 fs-4">
+                Ce modèle illustre l'un des objets 3D sur lesquels j'ai travaillé qui montre la précision nécessaire pour répondre aux exigences des professionnels de santé.
+            </p>
 
-            <h3 class="text-center"> Ce que j'ai appris</h3>
-            <p class="mb-4 mt-5 me-3 fs-4"> Ce stage m'a permis de comprendre le fonctionnement d'une entreprise et l'importance du travail en équipe.</p>
-            <p class="mb-4 mt-5 me-3 fs-4"> J'ai aussi appris à appréhender un nouvel environnement complexe comme la 3D tout en apprenant le language c++.</p>
 
+
+            <h2 class="mt-5 mb-4 text-center">Missions principales</h2>
+            <p class="mb-4 mt-5 me-3 fs-4">
+                Mon rôle principal consistait à traiter des cas atypiques sur lesquels il y avait de la perte de précision. Voici un aperçu détaillé de mes missions :
+            </p>
+            <ul class="fs-4 mb-4 mt-3">
+                <li>
+                    <strong>Modélisation avancée des dents atypiques :</strong>
+                    J'ai travaillé sur des cas rares tels que les <a href="https://fr.wikipedia.org/wiki/Tubercule_de_Carabelli">cuspides de Carabelli</a>.
+                    On peut voir sur l'image ci-dessous que la dent a une sorte de "bosse". J'ai dû améliorer leurs modélisations sur le logiciel.
+                    <div class="text-center mb-5 mt-2">
+                        <img src="img/C4W/Carabelli.jpg" alt="Cuspide de carabellis" class="img-fluid rounded shadow">
+                    </div>
+                </li>
+                <li>
+                    Modéliser les <strong>racines</strong> des dents (on ne les a que si le patient a fait un IRM (moins de 5% des cas)) et recalculer correctement les <a href="https://fr.wikipedia.org/wiki/Trois_dimensions"><strong>axes</strong></a>.
+                    <div class="text-center mb-5 mt-2">
+                        7<img src="img/C4W/AxeDent.png" alt="DentAvecAxe" class="img-fluid rounded shadow">
+                    </div>
+                </li>
+            </ul>
+            <p class="mb-4 mt-5 me-3 fs-4">
+                <strong>Collaboration :</strong>
+                J'ai interagi tout au long de mon stage avec des <strong>développeurs</strong> et le <strong>service technique</strong> pour m'assurer que les solutions techniques développées
+                répondent aux besoins des utilisateurs finaux.
+            </p>
+
+
+
+            <h2 class="mt-5 mb-4 text-center">Défis techniques rencontrés</h2>
+            <p class="mb-4 mt-5 me-3 fs-4">
+                Ce stage m'a confronté à plusieurs défis techniques :
+            </p>
+            <ul class="fs-4 mb-4 mt-3">
+                <li>
+                    <strong>Compréhension d'un environnement 3D complexe :</strong>
+                    J'ai dû me familiariser rapidement avec les principes de la modélisation 3D, notamment la manipulation des maillages,
+                    les transformations géométriques, et les contraintes d'optimisation.
+                </li>
+                <li>
+                    <strong>Apprentissage du langage C++ :</strong>
+                    Pour pouvoir développer sur le logiciel, j'ai appris le C++, un langage essentiel pour le développement de logiciels performants dans le domaine de la 3D.
+                </li>
+            </ul>
+
+            <h3 class="mt-5 mb-4">Compétences développées</h3>
+            <p class="mb-4 mt-5 me-3 fs-4">
+                Ce stage a été une expérience formatrice qui m'a permis de développer de nombreuses compétences techniques et personnelles, notamment :
+            </p>
+            <ul class="fs-4 mb-4 mt-3">
+                <li><strong>Modélisation 3D en c++:</strong> Découverte des principes de maillage, du c++ pour des rendus précis.</li>
+                <li><strong>Travail en équipe :</strong> Collaboration avec des développeurs et l'équipe technique.</li>
+            </ul>
+
+            <h3 class="mt-5 mb-4">Bilan</h3>
+            <p class="mb-4 mt-5 me-3 fs-4">
+                Ce stage chez C4W m'a offert une immersion dans le monde de la 3D, tout en consolidant mes compétences en programmation.
+                J'ai surtout appris à travailler dans une entreprise et dans une équipe. Dans un tel domaine, le travail d'équipe est primordial.
+                Cela a renforcé mon envie de travailler sur des projets complexes et qui a un réel impact.
+            </p>
         </div>
     </div>
 </div>
+
 
 
 
