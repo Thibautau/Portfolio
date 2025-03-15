@@ -58,7 +58,7 @@
 
             <h2 class="text-center mb-4">Réaliser</h2>
                 <p class="mb-4 mt-5 me-3 fs-4">
-                    Pour cette <strong>UE</strong> du BUT qui consiste principalement à concevoir des applications, j'ai pu faire une <strong>IA</strong> en C++ capable de jouer aux <a href="echec.html">échecs</a> et qui choisit le meilleur coup à jouer.
+                    Pour cette <strong>UE</strong> du BUT qui consiste principalement à concevoir des applications, j'ai pu faire une <strong>IA</strong> en C++ capable de jouer aux <a href="echec.html" target="_blank">échecs</a> et qui choisit le meilleur coup à jouer.
                 </p>
                 <p class="mb-4 mt-5 me-3 fs-4">
                     Ce projet fait référence à beaucoup des compétences du BUT3.
@@ -67,6 +67,7 @@
                 <h4 class="mb-4">AC 1 Choisir et implémenter les architectures adaptées</h4>
                     <p class="mb-4 mt-5 me-3 fs-4">
                         Pour choisir et implémenter les architectures adaptées de notre moteur d'échec, nous avons dû appliquer les bons <strong>principes algorithmiques (CE1.03)</strong>.
+                        Sans cela, notre IA aurait été lente et aurait produit de mauvais résultats.
                     </p>
 
 
@@ -85,8 +86,8 @@
                 <br>
                 <h4 class="mb-4">AC 3 Intégrer des solutions dans un environnement de production</h4>
                 <p class="mb-4 mt-5 me-3 fs-4">
-                    Au cours de mon <a href="stageC4W.html">stage</a> de deuxième année de BUT, j'ai eu l'occasion de développer sur un logiciel <strong>3D</strong> pour de l'<strong>orthodontie</strong>.
-                    J'ai du améliorer la représentation des dents sur le logiciel en respectant les besoins décrits par le client <strong>(CE1.01)</strong> et en choisissant les ressources techniques appropriées <strong>(CE1.06)</strong>.
+                    Au cours de mon <a href="stageC4W.html" target="_blank">stage</a> de deuxième année de BUT, j'ai eu l'occasion de développer sur un logiciel <strong>3D</strong> pour de l'<strong>orthodontie</strong>.
+                    J'ai du améliorer la représentation des dents sur le logiciel en respectant les besoins décrits par l'entreprise <strong>(CE1.01)</strong> et en choisissant les ressources techniques appropriées <strong>(CE1.06)</strong>.
                 </p>
                 <p class="mb-4 mt-5 me-3 fs-4">
                    J'ai du porter une grande attention à ces points puisque il faut une grande précision pour le domaine médicale et il ne faut surtout pas que s'écarter des attendus
@@ -103,16 +104,61 @@
 
 
             <h2 class="text-center mb-4">Optimiser</h2>
+
+            <h4 class="mb-4">AC 1 Anticiper les résultats de diverses métriques (temps d'exécution, occupation mémoire...)</h4>
             <p class="mb-4 mt-5 me-3 fs-4">
-                Pour faire jouer cet IA dans des délais résonnables, nous avons du mettre en place des algorithmes de backtrack comme <strong>MinMax</strong>.
-                Mais il est nécessaire d'ajouter d'autres algorithmes comme Alpha-bêta, des tâbles de transposition pour améliorer les
+                Toujours pendant le développement de notre <a href="echec.html" target="_blank">moteur d'échec</a>, nous avons mesurer les capacités de notre moteur en mesurant ses temps d'execution et son occupation mémoire.
+                Pour cela, nous avons pris 3 plateaux d'éches différents (début de partie puis millieu de partie puis fin de partie) pour mesurer performances de notre IA sur les même plateaux.
+                Nous avons pour cela formalisé et modélisé des situations complexes <strong>(CE2.01)</strong> tout en s'appuyant sur des schémas de raisonnement <strong>(CE2.03)</strong>
             </p>
+
+            <h4 class="mb-4">AC 2 Profile, analyser et justifier le comportement d'un code existant</h4>
+            <p class="mb-4 mt-5 me-3 fs-4">
+                Pendant le développement de notre <a href="echec.html" target="_blank">moteur d'échec</a>, nous avons dû vérifier les temps d'exécution et l'occupation mémoire pour comprendre ce qui prenait des ressources à notre programme.
+                Pour cela, nous avons utiliser le profiler <a href="https://www.jetbrains.com/help/clion/cpu-profiler.html#export-import-profiler-results" target="_blank">perf</a>
+                pour analyser les temps d'exécution et <a href="https://www.jetbrains.com/help/clion/memory-profiling-with-valgrind.html" target="_blank">Valgrind</a> pour repérer les fuites mémoires.
+            </p>
+            <p class="mb-4 mt-5 me-3 fs-4">
+                Cette démarche nous a permis de justifier nos choix et de valider nos résultats <strong>(CE2.04)</strong>
+            </p>
+
+            <h4 class="mb-4">AC 3 Choisir et utiliser des bibliothèques et méthodes dédiées au domaine d’application</h4>
+            <p class="mb-4 mt-5 me-3 fs-4">
+                Pour faire jouer cet <a href="echec.html" target="_blank">IA</a> dans des délais résonnables, nous avons du mettre en place des algorithmes de backtrack comme <strong>MinMax</strong>.
+                Mais il est nécessaire d'ajouter d'autres algorithmes comme Alpha-bêta, des tâbles de transposition pour améliorer les performances et les résultats.
+            </p>
+            <p class="mb-4 mt-5 me-3 fs-4">
+                Pour cela, nous avons recensé nos algorithmes et nos structures de données usuels <strong>(CE2.02)</strong> pour améliorer les performances ainsi que les résultats.
+            </p>
+
+
+
 
 
             <h2 class="text-center mb-4">Collaborer</h2>
 
+            <h4 class="mb-4">AC 1 Organiser et partager une veille numérique</h4>
             <p class="mb-4 mt-5 me-3 fs-4">
+                Dans le cadre de mes cours de <strong>communication</strong> du semestre 5, j'ai eu l'occasion de faire une veille numérique sur les <strong>catastrophes naturelles</strong> dans le monde.
+                Pour cela, je me suis abonné à des <strong>newsletter</strong> pour me tenir informé. Chaque semaine, j'ai repris les nouvelles les plus importantes, je les aies analysé et expliqué en partie leurs causes quand c'était possible.
+            </p>
+            <p class="mb-4 mt-5 me-3 fs-4">
+                Je me suis notamment aidé d'un <a href="https://meteofrance.com/sites/meteofrance.com/files/files/editorial/rapport-trajectoire-rechauffement-adaptation-changement-climatique-partie-1.pdf" target="_blank">document de météo france</a>
+                pour expliquer qu'il y aurait plus de catastrophes naturelles en France dans les prochaines années.
+                Ce travail m'a fait mobiliser une compétence de travail en équipe pluridisciplinaire <strong>(CE6.01)</strong> car nous avons travaillé à 3 sur des sujets variés et que l'on a du croiser nos informations.
+            </p>
 
+
+            <h4 class="mb-4">AC 2 Identifier les enjeux de l’économie de l’innovation numérique</h4>
+            <p class="mb-4 mt-5 me-3 fs-4"> Lors de mes cours de <strong>gestion et d’initiation à l’entrepreneuriat</strong>, j’ai étudié comment les entreprises du numérique innovent pour rester compétitives. Nous avons analysé des cas concrets d’entreprises ayant adopté de nouveaux modèles économiques. Grâce à ces enseignements, j’ai pu comprendre les enjeux économiques liés aux évolutions technologiques et accompagner la mise en œuvre des innovations numériques <strong>(CE6.02)</strong>. </p>
+
+            <h4 class="mb-4">AC 3 Guider la conduite du changement informatique au sein d’une organisation</h4>
+            <p class="mb-4 mt-5 me-3 fs-4"> Dans mon projet de reprise d’une application de gestion de tâches mal codée, nous avons dû mettre en place des <strong>bonnes pratiques de développement</strong> et revoir l'architecture du code. J’ai organisé des réunions pour sensibiliser les autres membres de l’équipe à l’importance du respect des contraintes juridiques <strong>(CE6.03)</strong>, notamment en matière de <strong>protection des données utilisateurs</strong>. </p>
+
+
+            <h4 class="mb-4">AC 4 Accompagner le management de projet informatique</h4>
+            <p class="mb-4 mt-5 me-3 fs-4"> Lors de mon projet de développement du moteur d’échecs, nous avons utilisé <strong>Git</strong> pour coordonner le travail en équipe et garantir une bonne gestion des versions.
+                J’ai également favorisé une <strong>communication efficace et collaborative</strong> <strong>(CE6.04)</strong> en parlant régulièrement de nos avancées
             </p>
 
         </div>
